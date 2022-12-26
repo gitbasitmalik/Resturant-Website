@@ -1,0 +1,85 @@
+.container-payment{
+    background-color: #f2f2f2;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 5px 20px 10px 20px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-left: 350px;
+    width: 600px;
+    margin-top: 40px;
+}
+
+
+.main-heading{
+    text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+input[type="password"],
+select,textarea{
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    background-color: #1A2226;
+    color: #ECF0F5;
+    border: none;
+    border-bottom: 2px solid #0DB8DE;
+    border-top: 0px;
+    border-radius: 0px;
+    font-weight: bold;
+    outline: 0;
+    margin-bottom: 20px;
+    padding-left: 0px;
+}
+
+input[type="submit"]{
+    width: 100%;
+    background-color: rgb(13, 163, 13);
+    color: honeydew;
+    font-size: 18px;
+    padding: 12px 20px;
+    margin: 10px 0px;
+    border-radius: 7px;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color:red;
+}
+
+fieldset{
+    background-color: white;
+    border: 1px solid #cccccc;
+    margin: 10px;
+    font-size: 17px;
+   
+}
+
+.Gender{
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #1A2226;
+    color: #ECF0F5;
+}
+
+#visa{
+    width: 65px;
+}
+
+#easypaisa{
+    width: 95px;
+    height: 56px;
+}
+
+#mastercard{
+    width: 65px;
+}

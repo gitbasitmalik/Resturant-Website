@@ -1,0 +1,125 @@
+
+#home {
+    background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
+    background-position: center;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+  }
+  #home h1 {
+    font-size: 20px;
+    letter-spacing: 8px;
+    font-style: normal;
+    padding-top: 10px;
+  }
+  #home .btn {
+    background: transparent;
+    border-radius: 0;
+    border: 3px solid #ffffff;
+    color: #ffffff;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 16px 42px;
+    margin-top: 40px;
+    transition: all 0.4s ease-in-out;
+  }
+  #home .btn:hover {
+    background: #ffffff;
+    color: #202020;
+  }
+  .learn-more-btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+  }
+  .learn-more-btn:hover{
+    background-color: rgb(207, 24, 24);
+  }
+  .align-center{
+    margin-left: 450px;
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+  *{margin: 0;padding: 0;box-sizing: border-box;font-family: 'Roboto', sans-serif; font-weight: 500;}
+
+  :root{
+    --black: #000000;
+    --light-red: #dd4545;
+  }
+  .footer-container{
+    width: 1200;
+    background-color: #edebed8c;
+    display: flex;
+    justify-content: space-around;
+    padding: 7rem 0 5rem 0;
+  }
+  
+  /*footer left side start*/
+  .footer-logo{
+    /*background-color: yellowgreen;*/
+    width: 18vw;
+    margin-left: 7rem;
+  }
+  .footer-logo h2{
+    font-size: 2.7rem;
+  }
+  .footer-logo p{
+    font-size: 1.4rem;
+    color: #6e6b6b;
+    padding: 1.5rem 0rem;
+    line-height: 2.1rem;
+  }
+  .footer-logo a{
+    text-decoration: none;
+  }
+  .fa{
+    background-color: var(--black);
+    color: #ffffff;
+    padding: .6rem;
+    border-radius: .3rem;
+  }
+ 
+  /*footer left side ends*/
+  /*footer center starts*/
+  .footer-links{
+    width: 32vw;
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+  }
+  .footer-links ul a li{
+    list-style-type: none;
+    padding: 1rem 0rem;
+  }
+  .footer-links ul a{
+    text-decoration: none;
+    color: #6e6b6b;
+  }	
+  /*footer center ends*/
+  
+  /*footer right section*/
+  .footer-contactus{
+    width: 17vw;
+  }
+  .footer-contactus h2{
+    font-size: 1.9rem;
+  }
+  .footer-contactus button{
+    padding: 1.4rem 2rem;
+      font-size: 1.6rem;
+      background: var(--light-red);
+      border: none;
+      border-radius: .4rem;
+      color: #ffff;
+      margin-top: 1.6rem;
+      cursor: pointer;
+      width: fit-content;
+      height: fit-content;
+  }
+  .copywright-tag{
+    background-color: lightgray;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    text-align: center;
+  }

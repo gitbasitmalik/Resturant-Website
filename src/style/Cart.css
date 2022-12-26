@@ -1,0 +1,51 @@
+.cart{
+    margin: 100px 500px 0px 500px;  
+    border: 3px solid rgb(54, 52, 52);
+    
+    width: 300px;
+    height: 300px;
+    
+}
+
+.btnCart{
+    height: 30px;
+    width: 25px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    background-color: rgb(198, 219, 219);
+
+}
+.btnCart:hover{
+    box-shadow: 2px 2px 2px #201f0c;
+}
+.cart:hover{
+    box-shadow: 5px 5px 5px 5px #201f0c;
+}
+.cart__title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.orderplace-btn{
+    height: 35px;
+    width: 110px;
+    margin-bottom: 10px;
+    background-color: rgb(184, 53, 53);
+    border-radius: 10px;
+    margin-left: 30px;
+    font-size: small;
+    
+}
+.orderplace-btn:hover{
+    box-shadow: 3px 3px 3px #000000;
+}
+.cancel
+{
+    width: 58px;
+    height: 30px;
+    background-color: rgb(198, 219, 219);
+    border-radius: 10px;
+    margin-left: 10px;
+       
+}
+.cancel:hover{
+    box-shadow: 2px 2px 2px #201f0c;
+}

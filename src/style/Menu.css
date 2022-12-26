@@ -1,0 +1,35 @@
+#menu{
+    padding-left: 100px;
+    margin-left: 110px;
+    margin-top: 30px;
+    background-color:  #96cfdc;
+    height: auto;
+    width: 1100px;
+    border-radius:  100px;
+    border-style: dotted;
+    
+    
+
+}
+#menu h4 {
+	line-height: 1.5;
+}
+#menu .col-md-8 {
+  padding-bottom: 42px;
+}
+#menu .col-md-6 {
+  padding-bottom: 18px;
+}
+#menu span {
+  color: #262121;
+}
+.heading{
+    padding-right: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.heading{
+
+    font-size: 50px;
+}
+
+

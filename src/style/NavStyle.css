@@ -1,0 +1,56 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10%;
+    
+}
+#logo{
+    font-family: 'Aclonica';
+    font-size: 35px;
+    color: black;
+    margin-right: auto;
+    cursor: pointer;
+    
+    
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+}
+a{
+    text-decoration: none;
+}
+button{
+    border:  1px;
+    width: 80px;
+    height: 40px;
+    background-color: white;
+   
+}
+#main{
+    border: 1px;
+    background-color: #0DB8DE;
+    height: 80px;
+    width: auto;
+        
+}
+.nav_btn:hover{
+    background-color: rgb(65, 65, 204);
+}
+
+#logo:focus{
+    color: red;
+}
+
+li:hover{
+    text-decoration: underline ;
+}
